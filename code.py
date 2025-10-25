@@ -9,7 +9,7 @@ data = {
 
 df = pd.DataFrame(data)
 
-new_row_loc = pd.DataFrame({'Name': ['David'], 'Age': [28], 'City': ['Houston']})
+new_row_loc = pd.DataFrame({'Name': ['Subrina'], 'Age': [25], 'City': ['Dhaka']})
 df.loc[len(df)] = new_row_loc.loc[0]
 data_dir='data'
 os.makedirs(data_dir, exist_ok=True)
